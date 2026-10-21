@@ -39,11 +39,17 @@ protocol: SIRC20
 address: 10 05 00 00
 command: 71 00 00 00
 # 
-name: MEDIA_BOX
+name: VIDEO_1
 type: parsed
-protocol: SIRC20
-address: 10 0D 00 00
-command: 40 00 00 00
+protocol: SIRC15
+address: 30 00 00 00
+command: 22 00 00 00
+#
+name: VIDEO_2
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 1E 00 00 00
 # 
 name: BD_DVD
 type: parsed
